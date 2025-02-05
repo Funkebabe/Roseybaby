@@ -1,0 +1,117 @@
+/* General reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 16px;
+  }
+  
+  .container {
+    max-width: 375px;
+    margin: 0 auto;
+  }
+  
+  .recipe {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .recipe-title {
+    font-size: 24px;
+    margin: 16px 0;
+  }
+  
+  .recipe-description {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  
+  ul, ol {
+    margin-left: 20px;
+    margin-bottom: 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  .div2{
+    background-color: hsl(330, 100%, 98%);
+
+  }
+  .text2{
+    color: hsl(14, 45%, 36%);
+  }
+  .text{
+    color: hsl(332, 51%, 32%);
+  }
+  
+  /* Optional: Add some spacing to the sections */
+  section {
+    margin-bottom: 16px;
+  }
+  /* Tablet (768px and up) */
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 700px;
+    }
+  
+    .recipe {
+      padding: 24px;
+    }
+  
+    .recipe-title {
+      font-size: 28px;
+    }
+  
+    h2 {
+      font-size: 24px;
+    }
+  }
+  
+  /* Desktop (1440px and up) */
+  @media screen and (min-width: 1440px) {
+    .container {
+      max-width: 1200px;
+    }
+  
+    .recipe {
+      padding: 32px;
+    }
+  
+    .recipe-title {
+      font-size: 32px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  }
+  
